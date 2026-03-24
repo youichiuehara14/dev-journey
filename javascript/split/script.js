@@ -1,0 +1,14 @@
+const testWords =
+  "Touch my body tender 'Cause the feeling makes me weak Kicking off the covers I see the ceiling while you're looking down at me How can we go back to being friends When we just shared a bed? How can you look at me and pretend I'm someone you've never met?";
+
+const splitWords = testWords.split(' ');
+
+console.log(splitWords);
+
+/* you'll get the output of: 
+================================
+  ['Touch', 'my', 'body', 'tender', '\'Cause', 'the', 'feeling', 'makes', 'me', 'weak', 'Kicking', 'off', 'the', 'covers', 'I', 'see', 'the',
+  'ceiling', 'while', 'you\'re', 'looking', 'down', 'at', 'me', 'How', 'can', 'we', 'go', 'back', 'to', 'being', 'friends', 'When', 'we', 'just',
+  'shared', 'a', 'bed?', 'How', 'can', 'you', 'look', 'at', 'me', 'and', 'pretend', 'I\'m', 'someone', 'you\'ve', 'never', 'met?']
+================================
+*/
