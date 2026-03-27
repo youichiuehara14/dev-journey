@@ -17,12 +17,5 @@ const employees = [
   { name: 'Giselle', role: 'dev' },
 ];
 
-// WRONG: missing return
-// const wrong = users.filter((user) => {
-//   user.active;
-// });
-// console.log(wrong); // []
-
-// RIGHT:
 const devEmployees = employees.filter((dev) => dev.role === 'dev');
 console.log(devEmployees);
